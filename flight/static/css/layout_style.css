@@ -161,9 +161,10 @@ body{
 }
 
 .search-flight{
-    padding: 50px 40px;
+    padding: 50px 40px 30px 40px;
     background-color: #fff;
-    width: 40%;
+    height: 100%;
+    width: 30%;
     border-radius: 7px;
     box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 15px, rgba(101, 119, 134, 0.15) 0px 0px 3px 1px;
     display: flex;
@@ -208,7 +209,7 @@ body{
     position: absolute;
 }
 .single_destination:hover{
-    transform: translateY(-10px);
+    transform: scale(1.1);
     box-shadow: 0 12px 15px rgba(0,0,0,.2);
     cursor: pointer;
 }
@@ -244,7 +245,7 @@ footer .container > div{
     margin-bottom: 40px;
     flex-shrink: 0;
     max-width: 100%;
-    overflow: hidden;
+    overflow: visible;
 }
 .footer-content{
     padding-top: 10px;
@@ -277,18 +278,19 @@ footer .container > div{
     white-space: nowrap;
     margin-left: 20%;
     color: rgb(31, 31, 31);
-    text-decoration: underline solid rgb(255, 255, 255);
+    text-decoration:none;
     transition: all 0.1s ease 0s;
 }
 .footer-links:hover{
-    color: rgb(31, 31, 31);
+    text-decoration:none;
+    color: rgb(250, 248, 248);
 }
 .quote-container .quote{
     font-family: utopia-std, serif;
     text-align: center;
     color: rgb(26, 26, 26);
     max-width: 500px;
-    margin: auto;
+    margin-top: -40px;
     font-size: 21px;
     font-weight: 600;
     line-height: 1.6;
