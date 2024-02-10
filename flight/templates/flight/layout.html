@@ -22,14 +22,14 @@
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="{% url 'index' %}">
-          <img src="{% static 'img/icon_logo.png' %}" height="34" alt="">
+          <img src="{% static 'img/3.png' %}" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" id="navlink">
           <li class="nav-item {% if not page %}active{% endif %}">
             <a class="nav-link" href="{% url 'index' %}">Home</a>
           </li>
@@ -40,7 +40,7 @@
         <ul class="navbar-nav">
           {% if not user.is_authenticated %}
             <li class="nav-item">
-              <button class="btn btn-outline-danger" style="border-radius: 25rem;" onclick="window.location.href = '/login';">
+              <button class="btn btn-outline-primary " style="border-radius: 25rem;" onclick="window.location.href = '/login';">
                 <svg width="1.1em" height="1.1em" viewBox="0 1.5 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                 </svg>

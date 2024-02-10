@@ -14,10 +14,22 @@ body{
     box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 .navbar{
-    padding: .7rem 1.2rem;
+    padding: 0.01em 1.2rem;
     background-color: #fff;
     transition-duration: .2s;
 }
+.navbar-brand img{
+   max-height: 60px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#navlink{
+    margin-left: 35px;
+    gap: 20px;
+}
+
 .nav-link:hover{
     color: #2e21e1!important;
     transition-duration: .2s;
@@ -220,7 +232,7 @@ body{
 }
 
 footer{
-    background-color: rgb(116, 153, 225);
+    background-color: #7cbbfe;
     margin-top: 20px;
     padding-top: 1px;
 }
