@@ -240,13 +240,14 @@ footer{
 }
 footer .container > div{
     font-family: Barlow, sans-serif;
-    margin: 48px 0px 10px;
+    margin-top: 48px ;
+    margin-bottom: 40px;
     flex-shrink: 0;
     max-width: 100%;
     overflow: hidden;
 }
 .footer-content{
-    padding-top: 20px;
+    padding-top: 10px;
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
@@ -274,6 +275,7 @@ footer .container > div{
 }
 .footer-links{
     white-space: nowrap;
+    margin-left: 20%;
     color: rgb(31, 31, 31);
     text-decoration: underline solid rgb(255, 255, 255);
     transition: all 0.1s ease 0s;
