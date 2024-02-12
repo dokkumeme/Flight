@@ -81,7 +81,7 @@
                                                 </svg>
                                             </button>
                                         </form>
-                                        <button class="btn btn-outline-danger btnp cbtn"  data-ref="{{ticket.ref_no}}" onclick="popup(this)">Cancel</button>
+                                        <button class="btn btn-outline-primary btnp cbtn"  data-ref="{{ticket.ref_no}}" onclick="popup(this)">Cancel</button>
                                     {% endif %}
                                     {% if ticket.status == 'PENDING' %}
                                         <form action="{% url 'resumebooking' %}" method="POST">
@@ -94,7 +94,7 @@
                                             </button>
                                         </form>
 
-                                        <button type="button" class="btn btn-outline-danger btnp cbtn" data-ref="{{ticket.ref_no}}" onclick="popup(this)">Cancel</button>
+                                        <button type="button" class="btn btn-outline-primary btnp cbtn" data-ref="{{ticket.ref_no}}" onclick="popup(this)">Cancel</button>
                                     {% endif %}
                                     {% if ticket.status == 'CANCELLED' %}
                                     {% endif %}

@@ -177,7 +177,7 @@ body{
 }
 
 .cbtn:hover, .cbtn:focus, .cbtn:active{
-    color: #dc3545!important;
+    color: #007bff!important;
 }
 
 .pbtn:hover, .pbtn:focus, .pbtn:active{
